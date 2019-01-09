@@ -1,0 +1,38 @@
+.button {
+  &.button--outline {
+    border: 1px solid $navy;
+    color: $navy;
+  }
+
+  &.button--outline:hover, &.button--outline.button--hover {
+    color: $white;
+    background-color: $navy;
+  }
+
+  &.button--outline.button--disabled {
+    opacity: 0.4;
+    cursor: default;
+    background-color: $white;
+    color: $black;
+    border: 1px solid $grey700;
+  }
+
+  &.button--outline.button--inverted {
+    border: 1px solid $white;
+    color: $white;
+    background: none;
+  }
+
+  &.button--outline.button--inverted:hover, &.button--outline.button--inverted.button--hover {
+    color: $navy;
+    background-color: $white;
+  }
+
+  &.button--outline.button--inverted.button--disabled {
+    opacity: 0.4;
+    cursor: default;
+    background-color: $white;
+    color: $black;
+    border: 1px solid $grey700;
+  }
+}

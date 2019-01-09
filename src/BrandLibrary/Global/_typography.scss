@@ -1,0 +1,49 @@
+h1 {
+  font-family: $heading-font-1;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.34em;
+}
+
+h2 {
+  font-family: $heading-font-2;
+  font-size: 1.375rem;
+  font-weight: normal;
+  line-height: 1.19em;
+}
+
+h3 {
+  font-family: $body-font-mark;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.13rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+h4 {
+  font-family: $heading-font-1;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+h5 {
+  font-family: $heading-font-1;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.25em;
+}
+
+h6 {
+  font-family: $heading-font-1;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.25em;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+}

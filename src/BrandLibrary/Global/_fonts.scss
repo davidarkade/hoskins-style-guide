@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Miller Ban Rom";
+  font-weight: Normal;
+  font-style: Normal;
+  src: url("//cloud.typenetwork.com/licenseWeb/138839/fontfile/eot/?8fe0700e46436de562bd1da98f884808d3dcf314");
+  src: url("//cloud.typenetwork.com/licenseWeb/138839/fontfile/eot/?8fe0700e46436de562bd1da98f884808d3dcf314#iefix") format("embedded-opentype"),
+       url("//cloud.typenetwork.com/licenseWeb/138839/fontfile/woff2/?8fe0700e46436de562bd1da98f884808d3dcf314") format("woff2"),
+       url("//cloud.typenetwork.com/licenseWeb/138839/fontfile/woff/?8fe0700e46436de562bd1da98f884808d3dcf314") format("woff");
+}
+
+@font-face {
+  font-family: "Miller Ban Lt";
+  font-weight: Normal;
+  font-style: Normal;
+  src: url("//cloud.typenetwork.com/licenseWeb/138838/fontfile/eot/?8fe0700e46436de562bd1da98f884808d3dcf314");
+  src: url("//cloud.typenetwork.com/licenseWeb/138838/fontfile/eot/?8fe0700e46436de562bd1da98f884808d3dcf314#iefix") format("embedded-opentype"),
+       url("//cloud.typenetwork.com/licenseWeb/138838/fontfile/woff2/?8fe0700e46436de562bd1da98f884808d3dcf314") format("woff2"),
+       url("//cloud.typenetwork.com/licenseWeb/138838/fontfile/woff/?8fe0700e46436de562bd1da98f884808d3dcf314") format("woff");
+}
+
+$url: 'https://s3-ap-southeast-2.amazonaws.com/academybrand-styleguide/fonts/';
+
+@font-face {
+  font-family: 'Mark OT';
+  src: url('#{$url}MarkOT-Bold.woff2') format('woff2'),
+       url('#{$url}MarkOT-Bold.woff') format('woff'),
+       url('#{$url}MarkOT-Bold.svg#MarkOT-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mark OT';
+  src: url('#{$url}MarkOT.woff2') format('woff2'),
+       url('#{$url}MarkOT.woff') format('woff'),
+       url('#{$url}MarkOT.svg#MarkOT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mark OT';
+  src: url('#{$url}MarkOT-Medium.woff2') format('woff2'),
+       url('#{$url}MarkOT-Medium.woff') format('woff'),
+       url('#{$url}MarkOT-Medium.svg#MarkOT-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+$heading-font-1: "Mark OT";
+$heading-font-2: "Miller Ban Lt";
+
+$body-font-mark: "Mark OT";
+$body-font-miller: "Miller Ban Rom";
+$body-font-light: "Miller Ban Lt";

@@ -1,0 +1,46 @@
+.heading {
+  font-weight: 300;
+  color: rgb(114, 108, 108);
+  padding: 100px 0 0;
+}
+
+.variant_title {
+  font-size: 0.9em;
+  font-weight: 200;
+  margin: 20px 0;
+}
+
+.container {
+  padding: 10px 0;
+}
+
+.typography_container {
+  overflow:hidden;
+}
+
+.typography_row {
+  margin: 20px 0;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.typography_column {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.typography_spec {
+  font-family: 'Open Sans', serif;
+  font-size: 0.8em;
+  color: #9E9E9E;
+}
+
+.code_block {
+  font-size: 0.85em;
+  background-color: #F4F4F4;
+}
+
+.alternate_background {
+  margin: 40px 0;
+  padding: 30px;
+  background-color: #F4F4F4;
+}

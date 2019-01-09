@@ -1,0 +1,29 @@
+.button {
+  &.button--fill {
+    color: $white;
+    background-color: $navy;
+    border: none;
+  }
+
+  &.button--fill:hover, &.button--fill.button--hover {
+    color: $white;
+    background: $black;
+  }
+
+  &.button--fill.button--disabled {
+    opacity: 0.4;
+    cursor: default;
+    background-color: $grey600;
+    color: $grey900;
+  }
+
+  &.button--fill.button--inverted {
+    color: $navy;
+    background-color: $white;
+  }
+
+  &.button--fill.button--inverted:hover, &.button--fill.button--inverted.button--hover {
+    color: $white;
+    background-color: $navy;
+  }
+}

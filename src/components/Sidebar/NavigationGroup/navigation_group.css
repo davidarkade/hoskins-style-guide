@@ -1,0 +1,13 @@
+.navigation_group {
+    margin: 15px 0;
+}
+
+.navigation_group__list {
+    padding: 10px 0 0 0;
+}
+
+.navigation_group__title {
+    color: rgb(114, 108, 108);
+    border-bottom: 1px solid rgba(141, 135, 135, 0.2);
+    padding: 10px 0;
+}

@@ -1,0 +1,29 @@
+.button {
+  &.button--tab{
+    color: $grey500;
+    padding: 0 0 10px 0;
+    border: none;
+    background-color: transparent;
+
+    &:hover{
+      color: $navy;
+    }
+
+    &.active {
+      color: $navy;
+      border-bottom: solid 2px $navy;
+
+      &:active {
+        border: none;
+        border-bottom: solid 2px $navy;
+      }
+    }
+    &.hover {
+      color: $navy;
+    }
+    &:active {
+      background-color: transparent;
+      border: none;
+    }
+  }
+}

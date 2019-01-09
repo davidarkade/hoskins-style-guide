@@ -1,0 +1,31 @@
+@import "../Global/_colours.scss";
+
+@import "./styles/_button--fill.scss";
+@import "./styles/_button--outline.scss";
+@import "./styles/_button--slim.scss";
+@import "./styles/_button--large.scss";
+@import "./styles/_button--link.scss";
+@import "./styles/_button--tab.scss";
+
+.button {
+  display: inline-block;
+  padding: 9px 25px 8px;
+  margin: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  font-family: $heading-font-1;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  background-color: #424242;
+  border: 1px solid #000000;
+}
